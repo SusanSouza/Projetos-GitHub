@@ -1,0 +1,57 @@
+<!--
+Projeto referente as aulas 15 a 23
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto JS CodeClub Convert Money</title>
+    <link rel="stylesheet" href="./CodeClub Convert Money - Projeto.css"/>
+  </head>
+
+  <body>
+    <div class="masterCarton">
+      <header>
+        <h1>CodeClub Convert Money</h1>
+      </header>
+      <main>
+        <label>
+          Converter <b>de</b>
+          <select>
+            <option>R$ <b>Real brasileiro</b></option>
+          </select>
+        </label>
+        <label>
+          Converter <b>para</b>
+          <select id="currency-select">
+            <option>US$ Dólar americano</option>
+            <option>€ Euro</option>
+            <option>₿ Bitcoin</option>
+          </select>
+        </label>
+        <label>
+          Valor
+          <input id="input-real" placeholder="R$ 10.000,00" />
+        </label>
+        <button id="convet-button" type="button">Converter</button>
+        <section>
+          <div class="currency-container">
+            <img src="../Imagens/brasil.png" alt="Bandeira-Brasil" />
+            <p>Real</p>
+            <p class="value" id="real-value-text">R$ 10.000,00</p>
+          </div>
+          <img id="arrow" src="../Imagens/arrow.png" alt="Seta" />
+          <div class="currency-container">
+            <img id="currency-img" src="../Imagens/usa.png" alt="Bandeira-pais-conversão" />
+            <p id="currency-dolar">Dólar americano</p>
+            <p class="value" id="currency-value-text">R$ 10.000,00</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+  <script src="./CodeClub Convert Money - Projeto.js"></script>
+</html>

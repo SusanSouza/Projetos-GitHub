@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; /* resetar as margens*/
+    padding: 0; /* resetar as margens*/
+    box-sizing: border-box; /*não altera o tamanho do elemento, comprimi tudo la dentro */
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.masterCarton{
+    width: 375px;
+    background-color:#F4F4F4;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+header{
+    background: #1B83E2;
+    width: 375px;
+    height: 66px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 24px;
+}
+
+main{
+    padding: 24px;
+}
+
+label {
+    display: inline-block;
+    width: 327px;
+    height: 72px;
+    margin-top: 23px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+select{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #555555;
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #555555;
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    outline: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+button{
+    width: 327px;
+    height: 48px;
+    background: #1B83E2;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #F4F4F4;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+section{
+    border: 1px solid #1B83E2;
+    border-radius: 4px; 
+}
+
+.currency-container{
+    text-align: center;
+    padding: 12px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+.value{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #1B83E2;
+}
+
+#arrow{
+    display: block;
+    margin: 15px auto;
+}
+
